@@ -105,7 +105,7 @@ background-color: var(--black);
   position: absolute;
   width: 220px;
   height: 140%;
-  left: 0px;
+  left: 0;
   top: 0px;
   background: var(--cod-gray);
 }
@@ -186,7 +186,7 @@ background-color: var(--black);
 
 .left_side p {
   position: absolute;
-  top: 889.28px;
+  top: 890px;
   left: 41px;
   width: 138px;
   text-align: center;
@@ -416,13 +416,13 @@ background-color: var(--black);
 }
 
 .class_statistics {
-position: absolute;
-width: 849px;
-height: 343px;
-left: 295px;
-top: 290px;
-background: var(--cod-gray);
-border-radius: 10px;
+  position: absolute;
+  width: 849px;
+  height: 343px;
+  left: 295px;
+  top: 290px;
+  background: var(--cod-gray);
+  border-radius: 10px;
 }
 
 .class_statistics h1 {
