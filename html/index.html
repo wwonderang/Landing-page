@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Landing page</title>
+</head>
+<body>
+
+  <div class="header">
+    <img class="top_img" src="../img/footer.png" alt="Farhad Hossen">
+    <p>Farhad Hossen</p>
+    <svg class="arrow_top" width="14" height="8" viewBox="0 0 14 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13 0.999999L7 7L1 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <form action=""> 
+        <input type="text" class="search" placeholder="Search" name="search">
+      </form>
+      <img class="bell" src="../img/bell.png" alt="bell">
+  </div>
+
+  <div class="left_side">
+    <img class="logo_study" src="../img/logo_study.png" alt="study">
+    <div class="navigation">
+      <div class="nav_line" id="dashbord" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/dashboard.svg" alt=""></span><span class="navigation_text" id="dash">Dashboard</span>
+        <span class="field"></span>
+      </div>
+      <div class="nav_line" id="menu_clock" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/menu_clock.svg" alt=""></span><span class="navigation_text">Exam Date</span>
+        <span class="field"></span>
+      </div>
+      <div class="nav_line" id="classroom" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/classroom.svg" alt=""></span><span class="navigation_text">Class Room</span>
+        <span class="field"></span>
+      </div>
+      <div class="nav_line" id="notice" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/notice.svg" alt=""></span><span class="navigation_text">Notice Board</span>
+        <span class="field"></span>
+      </div>
+      <div class="nav_line" id="messages" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/messages.svg" alt=""></span><span class="navigation_text">Messages</span>
+        <span class="field"></span>
+      </div>
+      <div class="nav_line" id="results" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/results.svg" alt=""></span><span class="navigation_text">Results</span>
+        <span class="field"></span>
+      </div>
+      <div class="nav_line" id="notification" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/notification.svg" alt=""></span><span class="navigation_text">Notification</span>
+      <span class="field" id="field_active">5</span>
+      <span class="field"></span>
+      </div>
+      <div class="nav_line" id="settings" onclick="onClick(this)">
+        <span class="navigation_icon"><img src="../img/settings.svg" alt=""></span><span class="navigation_text">Settings</span>
+        <span class="field"></span>
+      </div>
+    </div>
+
+    <img class="download" src="../img/download.png" alt="download">
+    <img class="download_lines" src="../img/download_lines_left_side.png" alt="download_lines">
+    <p>Download Our Latest Apps Now</p>
+  </div>
+
+  <div class="center">
+    <section class="total_students">
+      <img class="icon" src="../img/total_students_icon.svg" alt="">
+      <p class="total_st_header">Total Students</p>
+      <p class="total_st_amount">1163</p>
+      <img class="diagram" src="../img/total_diagram.svg" alt="students_diagram">
+      <p class="total_st_attend">Attendantness:</p>
+      <img class="chart_line" src="../img/attend_bottom_layer.svg" alt="bottom layer">
+      <img class="chart_line" src="../img/attend_color_layer.svg" alt="color layer">
+      <p class="amount_in_per">80%</p>
+    </section>
+
+    <section class="online_activate">
+      <img class="icon" src="../img/online_activate_icon.svg" alt="icon">
+      <p class="online_act">Online Activate</p>
+      <p class="online_act_amount">85%</p>
+      <img class="diagram" src="../img/online_activate_diagram.svg" alt="">
+      <p class="onine_students_activate">Activate Users:</p>
+      <img class="chart_line" src="../img/online_activate_bottom_layer.svg" alt="diagram">
+      <img class="chart_line" src="../img/online_activate_color_layer.svg" alt="">
+      <p class="amount_in_per">60%</p>
+    </section>
+
+    <section class="online_learning">
+      <img class="icon" src="../img/online_learning_icon.svg" alt="icon">
+      <p class="online_learn">Online learning</p>
+      <p class="online_learn_amount">85%</p>
+      <img class="diagram" src="../img/online_learning_diagram.svg" alt="">
+      <p class="online_study">Online Study:</p>
+      <img class="chart_line" src="../img/online_activate_bottom_layer.svg" alt="diagram">
+      <img class="chart_line" src="../img/online_learning_color_layer.svg" alt="diagram">
+      <p class="amount_in_per">95%</p>
+    </section>
+
+    <section class="class_statistics">
+      <h1>Class Statistics</h1>
+      <ul class="numeration">
+        <li><span class="statistics_icon"><img src="../img/class_statistics_icon.svg" alt=""></span> 
+          <span class="num_1">100</span></li>
+          <li><span class="statistics_icon_2"><img src="../img/class_statistics_icon.svg" alt=""></span> 
+            <span class="num_2">70</span></li>
+            <li><span class="statistics_icon_3"><img src="../img/class_statistics_icon.svg" alt=""></span> 
+              <span class="num_3">40</span></li>
+              <li><span class="statistics_icon_4"><img src="../img/class_statistics_icon.svg" alt=""></span> 
+                <span class="num_4">10</span></li>
+      </ul>
+
+      <svg class="peak" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_d_1_1021)">
+        <circle cx="15" cy="11" r="7" fill="#F5F0F1"/>
+        <circle cx="15" cy="11" r="7" stroke="#FF3F58" stroke-width="3"/>
+        </g>
+        <defs>
+        <filter id="filter0_d_1_1021" x="0.5" y="0.5" width="29" height="29" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="3"/>
+        <feComposite in2="hardAlpha" operator="out"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0.94902 0 0 0 0 0.635294 0 0 0 0 0.796078 0 0 0 0.15 0"/>
+        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1021"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1021" result="shape"/>
+        </filter>
+        </defs>
+        </svg>
+
+        <svg class="peak_yellow" width="6" height="6" viewBox="0 0 6 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="3" cy="3" r="3" fill="#FEA441"/>
+        </svg>
+
+        <div class="peak_text">
+          <p>10.5.2021</p>
+          <p>661 Join</p>
+        </div>
+
+        <svg class="lines" width="710" height="193" viewBox="0 0 710 193" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.1">
+        <line opacity="0.5" x1="4.28661e-08" y1="192.5" x2="710" y2="192.5" stroke="#F5F0F1" stroke-dasharray="4 4"/>
+        <line opacity="0.5" x1="4.28661e-08" y1="128.5" x2="710" y2="128.5" stroke="#F5F0F1" stroke-dasharray="4 4"/>
+        <line opacity="0.5" x1="4.28661e-08" y1="64.5" x2="710" y2="64.5001" stroke="#F5F0F1" stroke-dasharray="4 4"/>
+        <line opacity="0.5" x1="4.28661e-08" y1="0.5" x2="710" y2="0.500063" stroke="#F5F0F1" stroke-dasharray="4 4"/>
+        </g>
+        </svg>
+
+        <svg class="pink_line" width="717" height="180" viewBox="0 0 717 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g filter="url(#filter0_d_1_865)">
+          <path d="M710 137.463C696.86 141.406 683.72 141.406 670.579 117.753C657.439 94.1006 644.299 46.7958 631.159 46.7958C618.019 46.7958 604.879 94.1006 591.738 117.753C578.598 141.406 565.458 141.406 552.318 121.695C539.178 101.985 526.037 62.5641 512.897 38.9116C499.757 15.2592 486.617 7.37507 473.477 15.2592C460.336 23.1434 447.196 46.7958 434.056 42.8537C420.916 38.9116 407.776 7.37507 394.636 3.433C381.495 -0.50907 368.355 23.1434 355.215 46.7958C342.075 70.4482 328.935 94.1006 315.794 90.1586C302.654 86.2165 289.514 54.6799 276.374 38.9116C263.234 23.1434 250.093 23.1434 236.953 34.9696C223.813 46.7958 210.673 70.4482 197.533 86.2165C184.393 101.985 171.252 109.869 158.112 109.869C144.972 109.869 131.832 101.985 118.692 94.1006C105.551 86.2165 92.4112 78.3324 79.271 74.3903C66.1308 70.4482 52.9907 70.4482 39.8505 90.1586C26.7103 109.869 13.5701 149.29 7.00001 169" stroke="#FF3F58" stroke-width="2"/>
+          </g>
+          <defs>
+          <filter id="filter0_d_1_865" x="0.0513306" y="-0.000442505" width="716.236" height="179.317" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+          <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+          <feOffset dy="4"/>
+          <feGaussianBlur stdDeviation="3"/>
+          <feComposite in2="hardAlpha" operator="out"/>
+          <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.247059 0 0 0 0 0.345098 0 0 0 0.15 0"/>
+          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_865"/>
+          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_865" result="shape"/>
+          </filter>
+          </defs>
+        </svg>
+          
+          <svg class="blue_line" width="722" height="144" viewBox="0 0 722 144" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_1_867)">
+            <path d="M715 39.9152L710.895 44.0401C702.571 52.4041 696.018 62.2842 690.591 72.7624C682.315 88.7438 670.928 105.87 659.167 102.803C643.789 98.6101 628.411 56.6852 613.033 56.6852C596.956 56.6852 581.578 98.6101 566.2 106.995C550.822 115.38 535.444 90.2251 519.367 81.8401C503.989 73.4551 488.611 81.8401 473.233 69.2626C457.156 56.6852 441.778 23.1452 426.4 23.1452C411.022 23.1452 395.644 56.6852 379.567 69.2626C364.189 81.8401 348.811 73.4551 333.433 56.6852C317.356 39.9152 301.978 14.7602 286.6 6.37522C271.222 -2.00977 255.844 6.37522 239.767 18.9527C224.389 31.5302 209.011 48.3002 193.633 52.4927C177.556 56.6852 162.178 48.3002 146.8 48.3002C131.422 48.3002 116.044 56.6852 99.967 77.6476C84.589 98.6101 69.211 132.15 53.833 132.15C37.756 132.15 22.378 98.6101 7 69.2626" stroke="#18B4F9" stroke-width="2" stroke-linecap="round"/>
+            </g>
+            <defs>
+            <filter id="filter0_d_1_867" x="-0.000183105" y="0.000110626" width="722" height="143.15" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="3"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0.0941176 0 0 0 0 0.705882 0 0 0 0 0.976471 0 0 0 0.15 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_867"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_867" result="shape"/>
+            </filter>
+            </defs>
+          </svg>
+
+            <div class="days">
+              <div class="name_of_the_day">Sat</div>
+              <div class="name_of_the_day">Sun</div>
+              <div class="name_of_the_day">Mon</div>
+              <div class="name_of_the_day">Tue</div>
+              <div class="name_of_the_day">Wed</div>
+              <div class="name_of_the_day">Thu</div>
+              <div class="name_of_the_day">Fri</div>
+            </div>
+    </section>
+
+    <section class="today_classes">
+      <h1>Today Incoming Classes</h1>
+      <p>Date 10.02.2021</p>
+      <div class="today_classes_icons">
+        <img src="../img/classes_icon_1.png" alt="icon">
+        <img src="../img/classes_icon_2.png" alt="icon">
+        <img src="../img/classes_icon_3.png" alt="icon">
+        <img src="../img/classes_icon_4.png" alt="icon">
+      </div>
+
+      <div class="subject_name">
+        <div class="subject">Subject Name</div>
+        <div class="subject">Subject Name</div>
+        <div class="subject">Subject Name</div>
+        <div class="subject">Subject Name</div>
+      </div>
+
+      <div class="subject_eye">
+        <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.7">
+          <path d="M13.8064 3.96477C9.31255 7.74962 4.75537 7.74978 0.261348 3.96477C0.0951919 3.82503 0 3.61979 0 3.40174C0 3.18369 0.0951919 2.97846 0.261348 2.83856C2.50828 0.946292 4.77101 0 7.03388 0C9.29676 0 11.5595 0.946292 13.8064 2.83872C13.9726 2.97862 14.0678 3.18369 14.0678 3.40174C14.0678 3.61979 13.9726 3.82487 13.8064 3.96477ZM7.03388 0.941603C5.67728 0.941603 4.57359 2.0453 4.57359 3.40174C4.57359 4.75819 5.67728 5.86204 7.03388 5.86204C8.39049 5.86204 9.49402 4.75835 9.49402 3.40174C9.49402 2.04514 8.39049 0.941603 7.03388 0.941603Z" fill="#F5F0F1"/>
+          <path d="M7.03587 2.30759C7.64016 2.30759 8.13003 2.79746 8.13003 3.40175C8.13003 4.00604 7.64016 4.49591 7.03587 4.49591C6.43158 4.49591 5.94171 4.00604 5.94171 3.40175C5.94171 2.79746 6.43158 2.30759 7.03587 2.30759Z" fill="#F5F0F1"/>
+          </g>
+        </svg>
+
+        <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.7">
+          <path d="M13.8064 3.96477C9.31255 7.74962 4.75537 7.74978 0.261348 3.96477C0.0951919 3.82503 0 3.61979 0 3.40174C0 3.18369 0.0951919 2.97846 0.261348 2.83856C2.50828 0.946292 4.77101 0 7.03388 0C9.29676 0 11.5595 0.946292 13.8064 2.83872C13.9726 2.97862 14.0678 3.18369 14.0678 3.40174C14.0678 3.61979 13.9726 3.82487 13.8064 3.96477ZM7.03388 0.941603C5.67728 0.941603 4.57359 2.0453 4.57359 3.40174C4.57359 4.75819 5.67728 5.86204 7.03388 5.86204C8.39049 5.86204 9.49402 4.75835 9.49402 3.40174C9.49402 2.04514 8.39049 0.941603 7.03388 0.941603Z" fill="#F5F0F1"/>
+          <path d="M7.03587 2.30759C7.64016 2.30759 8.13003 2.79746 8.13003 3.40175C8.13003 4.00604 7.64016 4.49591 7.03587 4.49591C6.43158 4.49591 5.94171 4.00604 5.94171 3.40175C5.94171 2.79746 6.43158 2.30759 7.03587 2.30759Z" fill="#F5F0F1"/>
+          </g>
+        </svg>
+
+        <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.7">
+          <path d="M13.8064 3.96477C9.31255 7.74962 4.75537 7.74978 0.261348 3.96477C0.0951919 3.82503 0 3.61979 0 3.40174C0 3.18369 0.0951919 2.97846 0.261348 2.83856C2.50828 0.946292 4.77101 0 7.03388 0C9.29676 0 11.5595 0.946292 13.8064 2.83872C13.9726 2.97862 14.0678 3.18369 14.0678 3.40174C14.0678 3.61979 13.9726 3.82487 13.8064 3.96477ZM7.03388 0.941603C5.67728 0.941603 4.57359 2.0453 4.57359 3.40174C4.57359 4.75819 5.67728 5.86204 7.03388 5.86204C8.39049 5.86204 9.49402 4.75835 9.49402 3.40174C9.49402 2.04514 8.39049 0.941603 7.03388 0.941603Z" fill="#F5F0F1"/>
+          <path d="M7.03587 2.30759C7.64016 2.30759 8.13003 2.79746 8.13003 3.40175C8.13003 4.00604 7.64016 4.49591 7.03587 4.49591C6.43158 4.49591 5.94171 4.00604 5.94171 3.40175C5.94171 2.79746 6.43158 2.30759 7.03587 2.30759Z" fill="#F5F0F1"/>
+          </g>
+        </svg>
+
+        <svg width="15" height="7" viewBox="0 0 15 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.7">
+          <path d="M13.8064 3.96477C9.31255 7.74962 4.75537 7.74978 0.261348 3.96477C0.0951919 3.82503 0 3.61979 0 3.40174C0 3.18369 0.0951919 2.97846 0.261348 2.83856C2.50828 0.946292 4.77101 0 7.03388 0C9.29676 0 11.5595 0.946292 13.8064 2.83872C13.9726 2.97862 14.0678 3.18369 14.0678 3.40174C14.0678 3.61979 13.9726 3.82487 13.8064 3.96477ZM7.03388 0.941603C5.67728 0.941603 4.57359 2.0453 4.57359 3.40174C4.57359 4.75819 5.67728 5.86204 7.03388 5.86204C8.39049 5.86204 9.49402 4.75835 9.49402 3.40174C9.49402 2.04514 8.39049 0.941603 7.03388 0.941603Z" fill="#F5F0F1"/>
+          <path d="M7.03587 2.30759C7.64016 2.30759 8.13003 2.79746 8.13003 3.40175C8.13003 4.00604 7.64016 4.49591 7.03587 4.49591C6.43158 4.49591 5.94171 4.00604 5.94171 3.40175C5.94171 2.79746 6.43158 2.30759 7.03587 2.30759Z" fill="#F5F0F1"/>
+          </g>
+        </svg>
+      </div>
+
+      <div class="joined">
+        <div class="people_joined">205 joined</div>
+        <div class="people_joined">205 joined</div>
+        <div class="people_joined">205 joined</div>
+        <div class="people_joined">205 joined</div>
+      </div>
+
+      <div class="button">
+        <div class="pink_btn">Join Now</div>
+        <div class="pink_btn">Join Now</div>
+        <div class="pink_btn">Join Now</div>
+        <div class="pink_btn">Join Now</div>
+      </div>
+
+      <svg class="loupe" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.33333 11.6667C9.27885 11.6667 11.6667 9.27885 11.6667 6.33333C11.6667 3.38782 9.27885 1 6.33333 1C3.38782 1 1 3.38782 1 6.33333C1 9.27885 3.38782 11.6667 6.33333 11.6667Z" stroke="#F5F0F1" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13.0003 13L10.1003 10.1" stroke="#F5F0F1" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        
+
+        <form action=""> 
+          <select name="period" class="period" size="1">
+            <option selected value="1st year"> 1st year</option>
+            <option value="2 year">2nd year</option>
+            <option value="3 year">3d year</option>
+            <option value="4 year">4th year</option>
+          </select>
+        </form>
+    </section>
+
+    <section class="exam_schedule"> 
+      <h1>Exam Schedule</h1>
+      <p>October, 2021</p>
+
+      <svg class="left" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g opacity="0.2">
+        <circle cx="11" cy="11" r="10.5" stroke="#F5F0F1"/>
+        <path d="M13 7L9 11L13 15" stroke="#F5F0F1" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        </svg>
+
+        <svg class="right" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g opacity="0.2">
+          <circle cx="11" cy="11" r="10.5" stroke="#F5F0F1"/>
+          <path d="M9 15L13 11L9 7" stroke="#F5F0F1" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          </svg>
+        
+      <div class="exam_days">
+        <div class="day">Sun</div>
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+        <div class="day">Sat</div>
+      </div>
+
+      <div class="month_container">
+        <div class="first_line">
+          <div class="digit">26</div>
+          <div class="digit">27</div>
+          <div class="digit">28</div>
+          <div class="digit">29</div>
+          <div class="digit">30</div>
+          <div class="digit">01</div>
+          <div class="digit" id="yellow_day">02</div>
+        </div>
+
+        <div class="second_line">
+          <div class="digit">03</div>
+          <div class="digit">04</div>
+          <div class="digit">05</div>
+          <div class="digit">06</div>
+          <div class="digit">07</div>
+          <div class="digit">08</div>
+          <div class="digit">09</div>
+        </div>
+
+        <div class="third_line">
+          <div class="digit">10</div>
+          <div class="digit">11</div>
+          <div class="digit">12</div>
+          <div class="digit" id="pink_day">13</div>
+          <div class="digit">14</div>
+          <div class="digit">15</div>
+          <div class="digit">16</div>
+        </div>
+
+        <div class="fourth_line">
+          <div class="digit">17</div>
+          <div class="digit">18</div>
+          <div class="digit" id="yellow_day">19</div>
+          <div class="digit">20</div>
+          <div class="digit">21</div>
+          <div class="digit">22</div>
+          <div class="digit" id="blue_day">23</div>
+        </div>
+
+        <div class="fifth_line">
+          <div class="digit">24</div>
+          <div class="digit">25</div>
+          <div class="digit">26</div>
+          <div class="digit">27</div>
+          <div class="digit">28</div>
+          <div class="digit">29</div>
+          <div class="digit">30</div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </div>
+
+  <div right_side>
+
+    <section class="notice_board">
+      <h1>Notice Board</h1>
+      <img class="notice_bell" src="../img/notice_bell.svg" alt="">
+    </section>
+    <div class="page_one">
+      <img src="../img/notice_1.svg" alt="news">
+      <h3>This page require data that you entered...</h3>
+      <p class="date">Wed,Feb 24,2021; 12:00 pm</p>
+    </div>
+
+    <div class="page_two">
+      <img src="../img/notice_2.svg" alt="news">
+      <h3>This page require data that you entered...</h3>
+      <p class="date">Wed,Feb 24,2021; 12:00 pm</p>
+    </div>
+
+    <div class="page_three">
+      <img src="../img/notice_3.svg" alt="news">
+      <h3>This page require data that you entered...</h3>
+      <p class="date">Wed,Feb 24,2021; 12:00 pm</p>
+    </div>
+
+      <div class="page_four">
+        <img src="../img/notice_4.svg" alt="news">
+        <h3>This page require data that you entered...</h3>
+        <p class="date">Wed,Feb 24,2021; 12:00 pm</p>
+    </div>
+
+    <div class="page_five">
+      <img src="../img/notice_5.svg" alt="news">
+      <h3>This page require data that you entered...</h3>
+      <p class="date">Wed,Feb 24,2021; 12:00 pm</p>
+    </div>
+  </div>
+
+  <script src="../js/index.js">
+
+  </script>
+
+</body>
+</html>
