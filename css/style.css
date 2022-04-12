@@ -437,41 +437,10 @@ background-color: var(--black);
   left: 24px;
 }
 
-Suggested change 
-.numeration .statistics_icon {
-  position: absolute;
-  top: 80px;
-  left: 24px;
-  background-color: var(--cod-gray_2);
-  border-radius: 50px;
-  display: flexbox;
-  justify-content: center;
-  padding: 11px 12px;
-}
-.numeration .statistics_icon_2 {
-  position: absolute;
-  top: 144px;
-  left: 24px;
-  background-color: var(--cod-gray_2);
-  border-radius: 50px;
-  display: flexbox;
-  justify-content: center;
-  padding: 11px 12px;
-}
-.numeration .statistics_icon_3 {
-  position: absolute;
-  top: 208px;
-  left: 24px;
-  background-color: var(--cod-gray_2);
-  border-radius: 50px;
-  display: flexbox;
-  justify-content: center;
-  padding: 11px 12px;
-}
-
 .statistics_icon,
 .statistics_icon_2,
-.statistics_icon_3 {
+.statistics_icon_3, 
+.statistics_icon_4 {
   left: 24px;
   position: absolute;
   border-radius: 50px;
@@ -480,6 +449,7 @@ Suggested change
   padding: 11px 12px;
   background-color: var(--cod-gray_2);
 }
+
 .numeration .statistics_icon {
   top: 80px;
 }
@@ -491,14 +461,7 @@ Suggested change
 }
 
 .numeration .statistics_icon_4 {
-  position: absolute;
   top: 272px;
-  left: 24px;
-  background-color: var(--cod-gray_2);
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  padding: 11px 12px;
 }
 
 .num_1,
@@ -610,12 +573,13 @@ Suggested change
 
 .today_classes {
   position: absolute;
-width: 558px;
-height: 343px;
-left: 260px;
-top: 657px;
-background: var(--cod-gray);
-border-radius: 10px;
+  width: 558px;
+  height: 343px;
+  left: 260px;
+  top: 657px;
+  background: var(--cod-gray);
+  border-radius: 10px;
+  font-family: 'Rubik';
 }
 
 .today_classes h1,
@@ -623,7 +587,6 @@ border-radius: 10px;
   position: absolute;
   left: 24px;
   top: 24px;
-  font-family: 'Rubik';
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -635,7 +598,6 @@ border-radius: 10px;
   position: absolute;
   left: 24px;
   top: 55px;
-  font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
