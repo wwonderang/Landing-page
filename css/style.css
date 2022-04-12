@@ -437,6 +437,7 @@ background-color: var(--black);
   left: 24px;
 }
 
+Suggested change 
 .numeration .statistics_icon {
   position: absolute;
   top: 80px;
@@ -447,7 +448,6 @@ background-color: var(--black);
   justify-content: center;
   padding: 11px 12px;
 }
-
 .numeration .statistics_icon_2 {
   position: absolute;
   top: 144px;
@@ -458,7 +458,6 @@ background-color: var(--black);
   justify-content: center;
   padding: 11px 12px;
 }
-
 .numeration .statistics_icon_3 {
   position: absolute;
   top: 208px;
@@ -468,6 +467,27 @@ background-color: var(--black);
   display: flexbox;
   justify-content: center;
   padding: 11px 12px;
+}
+
+.statistics_icon,
+.statistics_icon_2,
+.statistics_icon_3 {
+  left: 24px;
+  position: absolute;
+  border-radius: 50px;
+  display: flexbox;
+  justify-content: center;
+  padding: 11px 12px;
+  background-color: var(--cod-gray_2);
+}
+.numeration .statistics_icon {
+  top: 80px;
+}
+.numeration .statistics_icon_2 {
+  top: 144px;
+}
+.numeration .statistics_icon_3 {
+  top: 208px;
 }
 
 .numeration .statistics_icon_4 {
